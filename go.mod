@@ -2,4 +2,4 @@ module github.com/nickwells/netsetter.mod
 
 go 1.14
 
-require github.com/nickwells/param.mod/v5 v5.7.2
+require github.com/nickwells/param.mod/v5 v5.7.4
