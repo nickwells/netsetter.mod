@@ -11,11 +11,11 @@ import (
 // net.TCPAddr address. Note that the Value is a pointer to a pointer so if
 // you have a
 //
-//     var addr *net.TCPAddr
+//	var addr *net.TCPAddr
 //
 // then you should set the Value as follows:
 //
-//     netsetter.TCPAddr{Value: &addr}
+//	netsetter.TCPAddr{Value: &addr}
 //
 // The standard library net package uses a pointer to a TCPAddr throughout so
 // this is likely the most useful way of setting this value.
