@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/nickwells/param.mod/v5/param/psetter"
+	"github.com/nickwells/param.mod/v6/psetter"
 )
 
 // TCPAddr allows you to give a parameter that can be used to set a
