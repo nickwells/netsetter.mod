@@ -4,13 +4,13 @@ go 1.21
 
 toolchain go1.21.0
 
-require github.com/nickwells/param.mod/v6 v6.1.1
+require github.com/nickwells/param.mod/v6 v6.1.2
 
 require (
 	github.com/nickwells/check.mod/v2 v2.1.13 // indirect
 	github.com/nickwells/mathutil.mod/v2 v2.3.0 // indirect
 	github.com/nickwells/tempus.mod v1.1.0 // indirect
-	golang.org/x/exp v0.0.0-20230905200255-921286631fa9 // indirect
+	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
 )
 
 require (
@@ -22,6 +22,6 @@ require (
 	github.com/nickwells/pager.mod v1.0.11 // indirect
 	github.com/nickwells/strdist.mod v1.1.13 // indirect
 	github.com/nickwells/twrap.mod v1.5.4 // indirect
-	golang.org/x/sys v0.12.0 // indirect
-	golang.org/x/term v0.12.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/term v0.13.0 // indirect
 )
