@@ -4,7 +4,7 @@ go 1.21
 
 toolchain go1.21.0
 
-require github.com/nickwells/param.mod/v6 v6.1.3
+require github.com/nickwells/param.mod/v6 v6.1.4
 
 require (
 	github.com/nickwells/check.mod/v2 v2.1.13 // indirect
