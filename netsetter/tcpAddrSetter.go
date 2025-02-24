@@ -37,6 +37,7 @@ func (s TCPAddr) SetWithVal(_, paramVal string) error {
 	}
 
 	*s.Value = addr
+
 	return nil
 }
 

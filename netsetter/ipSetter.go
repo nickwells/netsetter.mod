@@ -26,6 +26,7 @@ func (s IP) SetWithVal(_, paramVal string) error {
 	}
 
 	*s.Value = addr
+
 	return nil
 }
 
