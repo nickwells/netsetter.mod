@@ -1,8 +1,6 @@
 module github.com/nickwells/netsetter.mod
 
-go 1.21
-
-toolchain go1.21.0
+go 1.24
 
 require github.com/nickwells/param.mod/v6 v6.1.6
 
