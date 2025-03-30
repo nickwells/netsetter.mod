@@ -22,7 +22,7 @@ type IP struct {
 func (s IP) SetWithVal(_, paramVal string) error {
 	addr := net.ParseIP(paramVal)
 	if addr == nil {
-		return fmt.Errorf("Could not convert %q into an IP address", paramVal)
+		return fmt.Errorf("could not convert %q into an IP address", paramVal)
 	}
 
 	*s.Value = addr

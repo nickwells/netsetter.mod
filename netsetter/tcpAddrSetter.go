@@ -32,7 +32,7 @@ type TCPAddr struct {
 func (s TCPAddr) SetWithVal(_, paramVal string) error {
 	addr, err := net.ResolveTCPAddr("tcp", paramVal)
 	if err != nil {
-		return fmt.Errorf("Could not convert %q into a TCP address: %w",
+		return fmt.Errorf("could not convert %q into a TCP address: %w",
 			paramVal, err)
 	}
 
