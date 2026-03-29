@@ -2,7 +2,7 @@ module github.com/nickwells/netsetter.mod
 
 go 1.26.0
 
-require github.com/nickwells/param.mod/v7 v7.1.0
+require github.com/nickwells/param.mod/v7 v7.1.2
 
 require (
 	github.com/nickwells/check.mod/v2 v2.1.28 // indirect
