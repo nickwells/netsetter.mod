@@ -2,7 +2,7 @@ module github.com/nickwells/netsetter.mod
 
 go 1.26.0
 
-require github.com/nickwells/param.mod/v7 v7.1.2
+require github.com/nickwells/param.mod/v7 v7.2.0
 
 require (
 	github.com/nickwells/check.mod/v2 v2.1.28 // indirect
@@ -19,4 +19,5 @@ require (
 	github.com/nickwells/fileparse.mod v1.1.38 // indirect
 	github.com/nickwells/location.mod v1.2.35 // indirect
 	github.com/nickwells/twrap.mod v1.5.13 // indirect
+	golang.org/x/sys v0.43.0 // indirect
 )
